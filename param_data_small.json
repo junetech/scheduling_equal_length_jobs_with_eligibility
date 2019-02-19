@@ -1,0 +1,11 @@
+{
+    "win_data_location"     : "param_data_small/",
+    "linux_data_location"   : "param_data_small/",
+    "result_filename"       : "param_data_small_result.csv",
+    "number_of_machines"    : [4],
+    "mn_ratios"             : [4],
+    "processing_times"      : [2],
+    "drs"                   : [2],
+    "dMs"                   : [0.6],
+    "number_of_copy"        : 16
+}

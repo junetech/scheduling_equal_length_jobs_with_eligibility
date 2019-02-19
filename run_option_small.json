@@ -1,0 +1,14 @@
+{
+    "param_json_filename"   : "param_data_small.json",
+    "do_slack"              : false,
+    "slack_json_filename"   : "",
+    "report_individual_run" : false,
+    "optimal_timelimit"     : 300,
+    "header_info" : ["mc_no", "job_no", "n/m", "processing_time",
+        "release_date_density", "eligibility_density", "replicate_no"],
+    "header_UB" : ["Grd", "Grd_time", "IMR", "IMR_time", "GIMR", "GIMR_time"],
+    "header_LB" : ["Z_L", "no_el", "LB"],
+    "header_opt" : ["opt", "opt_time"],
+    "header_ratio" : ["Greedy_ratio", "IMR_ratio", "GIMR_ratio", "GIMR/LB"],
+    "header_comp" : ["both_same", "IMR_better", "Grd_better"]
+}
